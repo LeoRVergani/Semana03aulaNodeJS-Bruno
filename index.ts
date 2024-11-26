@@ -23,3 +23,22 @@ const livro: {
     categorias: ["Ficção"],
     disponivel: true
 }
+
+
+// aula02 
+
+function saudacao(nome: string): string {
+    return `Olá, ${nome}! Seja bem-vindo!`
+}
+
+const resultado = saudacao("Bruno")
+
+console.log(resultado)
+
+// sem retorno
+
+function mensagem(): void {
+    console.log("A aula 2, começou hoje.")
+}
+
+mensagem()
